@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: Arial, sans-serif;
 }
@@ -13,20 +14,23 @@ header{
     right: 0;
     z-index: 1;
 }
+
 ul{
     list-style-type: none;
-    height: 60px;
     margin: 20px;
 }
+
 li{
     background-color: white;
     border: 1px solid black;
     border-radius: 50%;
-    padding: 5px 12px;
+    padding: 5px 10px;
     font-size: 20px;
     text-align: center;
     margin: 10px;
+    font-weight: bold;
 }
+
 .d-flex{
     display: flex;
 }
@@ -38,6 +42,7 @@ li{
 #s-white{
     background-color: green;
 }
+
 #converse{
     background-color: yellow;
 }
@@ -47,6 +52,7 @@ li{
     height: 100vh;
     position: relative;
 }
+
 .contain{
     position: absolute;
     top: 50%;
@@ -55,4 +61,12 @@ li{
     text-align: center;
     font-size: 50px;
     font-weight: bold;
+}
+
+.y-color{
+    color: yellow;
+}
+
+.g-color{
+    color: green;
 }
